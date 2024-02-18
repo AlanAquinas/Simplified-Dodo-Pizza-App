@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backround_color">#121212</color>
+    <color name="surfacce">#000000</color>
+    <color name="primary">#FF6900</color>
+    <color name="seconadary">#4A1E03</color>
+    <color name="on_background">#FFFFFF</color>
+    <color name="on_surface">#6B6B6B</color>
+    <color name="on_primary">#6B6B6B</color>
+    <color name="on_surface_combo">#1D1D1D</color>
+</resources>
