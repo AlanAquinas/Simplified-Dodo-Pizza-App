@@ -16,6 +16,9 @@
             android:name=".PizzaActivity"
             android:exported="false" />
         <activity
+            android:name=".ComboActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
@@ -26,6 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

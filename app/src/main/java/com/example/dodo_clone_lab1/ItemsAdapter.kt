@@ -135,10 +135,11 @@ class ItemsAdapter(private var items: List<Pizza>, private val context: Context)
 
                 comboHolder.button.setOnClickListener {
                     val intent = Intent(context, ComboActivity::class.java)
-                    intent.putExtra("comboName", currentItem.title)
+                    intent.putExtra("comboTitle", currentItem.title)
                     intent.putExtra("comboDesc", currentItem.desc)
                     intent.putExtra("comboPrice", currentItem.price)
-
+                    intent.putExtra("sizeDesc", currentItem.sizeDesc)
+                    intent.putExtra("imageId", imageId)
                     context.startActivity(intent)
                 }
             }
