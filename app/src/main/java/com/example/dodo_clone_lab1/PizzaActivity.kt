@@ -2,6 +2,7 @@ package com.example.dodo_clone_lab1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
@@ -13,6 +14,7 @@ class PizzaActivity : AppCompatActivity() {
         val title: TextView = findViewById(R.id.pizza_list_title)
         val sizeDesc: TextView = findViewById(R.id.pizza_list_size_desc)
         val description: TextView = findViewById(R.id.pizza_list_desc)
+        val image: ImageView = findViewById(R.id.imageView)
 
 
         title.text = intent.getStringExtra("pizzaTitle")
@@ -21,6 +23,9 @@ class PizzaActivity : AppCompatActivity() {
 
         val floatingBackButton: FloatingActionButton = findViewById(R.id.floating_back_button)
 
+        val imageId = intent.getIntExtra("imageId", 0)
+
+        image.setImageResource(imageId)
         floatingBackButton.setOnClickListener {
             onBackPressed()
         }

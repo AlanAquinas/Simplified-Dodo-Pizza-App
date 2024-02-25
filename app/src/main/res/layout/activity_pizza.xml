@@ -56,7 +56,7 @@
 
         <TextView
             android:id="@+id/pizza_list_title"
-            android:layout_width="355dp"
+            android:layout_width="325dp"
             android:layout_height="27dp"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="0dp"
@@ -67,7 +67,7 @@
 
         <ImageView
             android:id="@+id/ic_info"
-            android:layout_width="wrap_content"
+            android:layout_width="23dp"
             android:layout_height="27dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0"
